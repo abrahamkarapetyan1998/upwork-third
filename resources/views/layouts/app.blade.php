@@ -75,7 +75,7 @@
                             <a class="nav-link" href="{{ url('/pricing') }}">{{__('home.pricing')}}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/about-us') }}">{{__('home.about_us')}}</a>
+                            <a class="nav-link" href="{{ url('/about-us') }}">{{__('home.footer_about')}}</a>
                         </li>
                          <li class="nav-item">
                                <a class="nav-link" href="{{ url('contact-us') }}">{{__('home.contact_us')}}</a>
@@ -298,12 +298,9 @@
             }
         }
 
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-        }
+
     </script>
 
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script type="text/javascript" src="{{ asset('js/cookie.notice.js') }}"></script>
 </body>
 </html>
